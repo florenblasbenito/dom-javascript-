@@ -37,7 +37,7 @@
         textos.push("Las papas disminuyen la presión...");
 
         //Creamos un número aleatorio
-        var num = Math.floor(Math.random()*textos.length);
+        var num = Math.floor(Math.random() * textos.length);
 
 
         //1) Creamos los objetos vacios por medio de createElement()
@@ -59,21 +59,12 @@
         fecha.innerHTML = new Date();
 
 
-
-    
-    
-    
+        //3) Los añadimos al documento DOM por medio de appendChild
+        //lo añadimos a la etiqueta con identificador "sabias"
+        document.getElementById("sabias").appendChild(titulo);
+        document.getElementById("sabias").appendChild(fecha);
+        document.getElementById("sabias").appendChild(texto);
     </script>
-
-
-
-
-
-
 </body>
-
-
-
-
 
 </html>
