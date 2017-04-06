@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+</head>
+
+<body>
+
+    <h1>Javascript text</h1>
+    <p id="demo"><span>javascript cambiar contenido</span></p>
+    <button onclick="document.getElementById('demo').innerHTML = 'HTML update!'">Click me</button>
+
+    <hr>
+
+    <button onclick="document.getElementById('myImage').src = 'http://i.imgur.com/wxlxs0Mb.jpg'">Encender</button>
+
+    <img id="myImage" src="http://i.imgur.com/sgxmUJDb.jpg"> </img>
+
+    <button onclick="document.getElementById('myImage').src='http://i.imgur.com/sgxmUJDb.jpg'">Apagar</button>
+
+    <hr>
+
+    <p id="magic">Esto lo mostrará de una forma mágica</p>
+
+    <button onclick="document.getElementById('magic').style.display = 'none'">Esconde el texto mágico</button>
+
+    <button onclick="document.getElementById('magic').style.display = 'block'">Show the text magically!</button>
+
+</body>
+
+</html>
